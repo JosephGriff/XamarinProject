@@ -34,10 +34,10 @@ namespace XamarinAppProject
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))
             {
                 conn.CreateTable<Character>();
-                // .Update is an inbuilt function in SQlite that updates the selected values
+                // .Update is an inbuilt function in SQlite that updates the selected values.
                 var numberOfRows = conn.Update(selectedCharacter);
 
-                //Displays a alert box depending on the result
+                //Displays a alert box depending on the result.
                 if (numberOfRows > 0)
                     DisplayAlert("Success", "Character Updated", "Great");
                 else
@@ -47,16 +47,16 @@ namespace XamarinAppProject
             }
         }
 
-        //when clicked/tapped the selected items from the database are deleted
+        //when clicked/tapped the selected items from the database are deleted.
         private void DeleteButton_Clicked(object sender, EventArgs e)
         {
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))
             {
                 conn.CreateTable<Character>();
-                // .Delete is an inbuilt function in SQlite that Deletes the selected values
+                // .Delete is an inbuilt function in SQlite that Deletes the selected values.
                 var numberOfRows = conn.Delete(selectedCharacter);
 
-                //Displays a alert box depending on the result
+                //Displays a alert box depending on the result.
                 if (numberOfRows > 0)
                     DisplayAlert("Success", "Character Deleted", "Great");
                 else
