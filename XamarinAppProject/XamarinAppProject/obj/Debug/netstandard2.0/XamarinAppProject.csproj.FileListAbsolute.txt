@@ -1,0 +1,17 @@
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\bin\Debug\netstandard2.0\XamarinAppProject.deps.json
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\bin\Debug\netstandard2.0\XamarinAppProject.dll
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\bin\Debug\netstandard2.0\XamarinAppProject.pdb
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.csproj.CoreCompileInputs.cache
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.AssemblyInfoInputs.cache
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.AssemblyInfo.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.dll
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.pdb
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\NewCharPage.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\UpdateCharPage.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\CharRosterPage.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\XamarinAppProject.csprojAssemblyReference.cache
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\ClassesPage.xaml.g.cs
+C:\Users\joeyg\source\repos\XamarinAppProject\XamarinAppProject\XamarinAppProject\obj\Debug\netstandard2.0\RacesPage.xaml.g.cs

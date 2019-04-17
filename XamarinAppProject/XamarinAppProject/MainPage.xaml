@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinAppProject"
+             x:Class="XamarinAppProject.MainPage"
+             Title="Character Creator"
+             BackgroundColor="#FF5A60">
+
+    
+    <StackLayout>
+         <!-- Creating buttons that link to the Creation,Roster,Races and Classes pages while also styling them-->
+        <Button Text="Make Character"
+                Clicked="Clicked_Add"
+                Padding="70"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+        <Button Text="Character Roster"
+                Clicked="Clicked_Roster"
+                Padding="70"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+        <Button Text="Races"
+                Clicked="Clicked_Races"
+                Padding="70"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+        <Button Text="Classes"
+                Clicked="Clicked_Classes"
+                Padding="70"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+
+
+
+    </StackLayout>
+    
+    
+</ContentPage>

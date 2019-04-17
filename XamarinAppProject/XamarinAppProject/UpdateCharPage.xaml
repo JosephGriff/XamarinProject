@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAppProject.UpdateCharPage"
+             BackgroundColor="Wheat"
+             Title="Character Adjustments">
+
+    <!-- Entry spaces where the data will be input if the user wants to update 
+         buttons for updating and deleting each has a event handler "Clicked"-->
+    <StackLayout>
+        <Entry x:Name="nameEntry"/>
+        <Entry x:Name="classEntry"/>
+        <StackLayout>
+            <Button Text="Update"
+                x:Name="updateButton"
+                Clicked="UpdateButton_Clicked"
+                Padding="50"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+        <Button Text="Delete"
+                x:Name="deleteButton"
+                Clicked="DeleteButton_Clicked"
+                Padding="50"
+                Margin="10"
+                BorderWidth="1"
+                BackgroundColor="#689EB8"
+                BorderColor="#A79B94"
+                TextColor="#F3F4F6"/>
+        </StackLayout>
+
+    </StackLayout>
+    
+    
+    
+    
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAppProject.RacesPage"
+             BackgroundColor="Wheat"
+             Title="Races">
+    
+    <!-- Hardcoded info Tab -->
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label FontAttributes="Bold" Text="Human" />
+            <Label Text="Recent discoveries have shown that humans are descended from the barbaric vrykul, half-giant warriors who live in Northrend. Early humans were primarily a scattered and tribal people for several millennia, until the rising strength of the troll empire forced their strategic unification. Thus the nation of Arathor was formed, along with its capital, the city-state of Strom."/>
+
+            <Label FontAttributes="Bold" Text="Worgen" />
+            <Label Text="Behind the formidable Greymane Wall, a terrible curse transformed some of the stalwart citizens of the isolated kingdom of Gilneas into nightmarish lupine beasts known as worgen. Human scholars intensely debated the origins of the curse, until it was revealed that the original worgen were not—as previously believed—nightmares from another dimension, but cursed druids."/>
+
+
+            <Label FontAttributes="Bold" Text="Troll" />
+            <Label Text="The savage trolls of Azeroth are infamous for their cruelty, dark mysticism, and seething hatred for all other races. Yet one exception among the trolls is the Darkspear tribe. Plagued by a history of subservience and exile, this proud tribe was on the brink of extinction when Warchief Thrall and his mighty Horde forces were driven to the trolls' remote island home in the South Seas during a violent storm."/>
+
+            <Label FontAttributes="Bold" Text="Goblin" />
+            <Label Text="Originally the slaves of jungle trolls on the Isle of Kezan, goblins were forced to mine kaja'mite ore out of the volcanic bowels of Mount Kajaro. The trolls used this potent mineral for their voodoo rituals, but it had an unexpected effect on the slaves who were in constant contact with it: kaja'mite generated new cunning and intelligence in the goblin race."/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

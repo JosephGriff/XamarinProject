@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAppProject.ClassesPage"
+             Title="Classes"
+             BackgroundColor="Wheat">
+        <!-- Hardcoded info Tab -->
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label FontAttributes="Bold" Text="Warrior" />
+            <Label Text="Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat."/>
+
+            <Label FontAttributes="Bold" Text="Hunter" />
+            <Label Text="Hunters battle their foes at a distance, commanding their pets to attack while they nock their arrows and fire their guns. Though their missile weapons are effective at short and long ranges, hunters are also highly mobile. They can evade or restrain their foes to control the arena of battle."/>
+
+
+            <Label FontAttributes="Bold" Text="Shaman" />
+            <Label Text="During combat, shaman place damaging and controlling totems on the ground to maximize their effectiveness while hindering their enemies. Shaman are versatile enough to battle foes up close or at range, but wise shaman choose their avenue of attack based on their enemies' strengths and weaknesses."/>
+
+            <Label FontAttributes="Bold" Text="Priest" />
+            <Label Text="Priests use powerful healing magic to fortify themselves and their allies. They also wield powerful offensive spells from a distance, but can be overwhelmed by enemies due to their physical frailty and minimal armor. Experienced priests carefully balance the use of their offensive powers when tasked with keeping their party alive."/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

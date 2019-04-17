@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAppProject.CharRosterPage"
+             Title="Character Roster"
+             BackgroundColor="Wheat">
+
+    <StackLayout>
+        <Label Text="Tap Character to either Edit or Delete."/>
+
+        <!-- The data from the database is shown using a listview and called using databinding-->
+        <ListView x:Name="characterListView"
+              ItemSelected="CharacterListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"
+                          Detail="{Binding Class}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
